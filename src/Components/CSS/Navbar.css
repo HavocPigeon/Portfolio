@@ -1,0 +1,20 @@
+.navbarmain {
+    background-color: grey;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    transition: 1s ease-in-out;
+  }
+  ul {
+      display: flex;
+      height: 100%;
+      color: white;
+      font-size: 20px;
+      justify-content: center;
+      align-items: center;
+  }
+  .navbarhidden {
+      width: 0px;
+      overflow: hidden;
+  }
+ 

@@ -23,11 +23,14 @@ export default class Navbar extends Component {
     render() {
         return (
             <div className={this.state.scroll < 0.1 ? 'navbarhidden' : 'navbarmain'}>
-                <ul>
-                    <li>Logo</li>
-                    <li>Skills</li>
-                    <li>Projects</li>
+            <div className="emptyspaceone"></div>
+                <ul id={this.state.scroll < 0.1 ? 'hiddenul' : 'shownul'}>
+                    <li>LOGO</li>
+                    <li>SKILLS</li>
+                    <li>PROJECTS</li>
+                    <li id='contacttab'>CONTACT</li>
                 </ul>
+            <div className="emptyspacetwo"></div>
             </div>
         );
     }

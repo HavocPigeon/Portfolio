@@ -1,0 +1,46 @@
+.Landingcover {
+    background-color: rgba(32, 29, 29, 0.616);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.landingheadings {
+    color: whitesmoke;
+    position: absolute;
+    bottom: -65px;
+    padding-left: 100px;
+    padding-right: 75px;
+    font-size: 18px;
+    text-align: left;
+    z-index: 10;
+}
+.nameheading {
+    display: flex;
+    flex-direction: column;
+    font-size: 80px;
+}
+.headingone {
+    display: flex;
+}
+.headingtwo {
+    display: flex;
+    padding-bottom: 25px;
+}
+.jobtitleone, .jobtitletwo {
+    padding-left: 100px;
+}
+.jobtitleone {
+    padding-bottom: 10px;
+}
+.jobtitletwo {
+    padding-bottom: 100px;
+}
+.coloredheader {
+    color: red;
+}
+.abitaboutme {
+    font-size: 50px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+}

@@ -1,20 +1,41 @@
 .navbarmain {
-    background-color: grey;
+    background-color: rgb(95, 95, 95);
     height: 60px;
     position: fixed;
     width: 100%;
     transition: 1s ease-in-out;
+    z-index: 50;
+    display: flex;
   }
-  ul {
-      display: flex;
+ .emptyspaceone, .emptyspacetwo {
+     flex: 1;
+ }
+  #hiddenul {
       height: 100%;
-      color: white;
+      color: transparent;
       font-size: 20px;
       justify-content: center;
       align-items: center;
   }
+  #shownul {
+      transition: 3.5s ease-in-out;
+      color: rgb(0, 0, 77);
+      display: flex;
+      height: 100%;
+      font-size: 20px;
+      justify-content: center;
+      align-items: center;
+  }
+  li {
+      padding-right: 40px;
+  }
+  #contacttab {
+      padding-right: 0px;
+  }
   .navbarhidden {
-      width: 0px;
+      height: 0px;
+      background-color: transparent;
+      transition: 0.3s ease-in-out;
       overflow: hidden;
   }
  

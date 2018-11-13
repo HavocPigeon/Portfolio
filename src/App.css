@@ -1,6 +1,9 @@
 .App {
   text-align: center;
-  min-height: 2000px;
+  min-height: 200vh;
+  background-image: url('./Images/Landingbkg.jpg');
+  background-position: bottom center;
+  background-size: cover;
 }
 
 .App-logo {
@@ -35,7 +38,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-family: 'Work Sans', sans-serif;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
